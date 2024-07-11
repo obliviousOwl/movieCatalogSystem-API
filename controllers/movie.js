@@ -77,7 +77,7 @@ module.exports.updateMovie = async (req, res) => {
     }
     catch(err) {
         console.error('Error in updating Movie: ', err);
-        return res.status(500).send({ error: 'Error in updating the Movie '})
+        return res.status(500).send({ error: 'Error in updating the Movie'})
     }
 }
 
